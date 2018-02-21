@@ -89,7 +89,7 @@ const processQuestion = async (page, q) => {
 
 const run = async () => {
   const { browser, page } = await launch();
-  let questionData = await prepareQuestionData(page);
+  const questionData = await prepareQuestionData(page);
   for (const q of questionData) {
     await delay(1000);
     console.log(q);
