@@ -1,0 +1,35 @@
+{
+  "name": "puppeteer-web-creep",
+  "version": "0.1.0",
+  "description": "Puppeteer web crawling samples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "author": "jacdebug",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "1.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacdebug/puppeteer-web-creep.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "web-crawling"
+  ],
+  "bugs": {
+    "url": "https://github.com/jacdebug/puppeteer-web-creep/issues"
+  },
+  "homepage": "https://github.com/jacdebug/puppeteer-web-creep#readme"
+}
